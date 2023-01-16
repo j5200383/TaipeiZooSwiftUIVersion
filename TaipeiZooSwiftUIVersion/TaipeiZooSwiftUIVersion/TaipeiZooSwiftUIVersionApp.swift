@@ -11,7 +11,7 @@ import SwiftUI
 struct TaipeiZooSwiftUIVersionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimalAreaListView()
         }
     }
 }

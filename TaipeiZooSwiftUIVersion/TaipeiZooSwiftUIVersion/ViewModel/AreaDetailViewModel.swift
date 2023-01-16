@@ -8,11 +8,9 @@
 import Foundation
 import Combine
 
-class AreaDetailViewModel: ObservableObject {
+class AreaDetailViewModel: BaseViewModel {
     @Published private (set) var animalInfos = [AnimalInfo]()
-    @Published var isLoading = false
     private (set) var areaInfo: ZooAreaInfo?
-    private var cancellable = Set<AnyCancellable>()
     
     init(areaInfo: ZooAreaInfo? = nil) {
         self.areaInfo = areaInfo
@@ -24,8 +22,7 @@ class AreaDetailViewModel: ObservableObject {
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: {[weak self] completion in
                 if case .failure(let error) = completion {
-//                    self?.errorMessage = error.localizedDescription
-                    print(error.localizedDescription)
+                    self?.errorMessage = error.localizedDescription
                 }
                 self?.isLoading = false
             }, receiveValue: {[weak self] data in

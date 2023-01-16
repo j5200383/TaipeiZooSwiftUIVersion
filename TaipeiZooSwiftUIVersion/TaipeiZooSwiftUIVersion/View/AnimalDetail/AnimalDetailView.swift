@@ -32,22 +32,6 @@ struct AnimalDetailView: View {
     }
 }
 
-struct AnimalTextView: View {
-    var title: String
-    var detail: String
-    var padding: CGFloat = 32
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(title)
-                .font(.headline)
-            Text(detail)
-                .font(.body)
-            Spacer(minLength: padding)
-        }
-    }
-}
-
 struct AnimalDetailView_Previews: PreviewProvider {
     static let animalInfo = AnimalInfo(name: "大熊貓", enName: "Giant Panda", alsoknown: "貓熊、熊貓", feature: "1.愛吃\n2.喜歡玩", behavior: "1.愛吃\n2.喜歡玩", location: "", picUrl: "", update: "2023/01/10")
 

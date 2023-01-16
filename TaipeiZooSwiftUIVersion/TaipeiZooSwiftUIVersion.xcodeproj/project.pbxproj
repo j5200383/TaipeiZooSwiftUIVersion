@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CE819AA0295D2C07000CF39C /* TaipeiZooSwiftUIVersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE819A9F295D2C07000CF39C /* TaipeiZooSwiftUIVersionApp.swift */; };
-		CE819AA2295D2C07000CF39C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE819AA1295D2C07000CF39C /* ContentView.swift */; };
+		CE819AA2295D2C07000CF39C /* AnimalAreaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE819AA1295D2C07000CF39C /* AnimalAreaListView.swift */; };
 		CE819AA4295D2C08000CF39C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE819AA3295D2C08000CF39C /* Assets.xcassets */; };
 		CE819AA7295D2C08000CF39C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE819AA6295D2C08000CF39C /* Preview Assets.xcassets */; };
 		CE9C2703296BEFE400E872BD /* AnimalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C2702296BEFE400E872BD /* AnimalInfo.swift */; };
 		CE9C2705296D4F3100E872BD /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C2704296D4F3100E872BD /* AnimalDetailView.swift */; };
 		CED658BF295D884E00CC5992 /* AreaDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED658BE295D884E00CC5992 /* AreaDetailViewModel.swift */; };
+		CED7B6552974F9FF0040DB1D /* PicUrlImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B6542974F9FF0040DB1D /* PicUrlImage.swift */; };
+		CED7B6572974FB4E0040DB1D /* AreaDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B6562974FB4E0040DB1D /* AreaDetailCellView.swift */; };
+		CED7B6592974FB770040DB1D /* AreaDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B6582974FB770040DB1D /* AreaDetailHeaderView.swift */; };
+		CED7B65C2974FC3A0040DB1D /* UINavigationController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B65B2974FC3A0040DB1D /* UINavigationController+.swift */; };
+		CED7B65E2974FCA60040DB1D /* AnimalAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B65D2974FCA60040DB1D /* AnimalAreaCell.swift */; };
+		CED7B6642974FFDF0040DB1D /* AnimalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B6632974FFDF0040DB1D /* AnimalTextView.swift */; };
+		CED7B666297501370040DB1D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B665297501370040DB1D /* BaseViewModel.swift */; };
+		CED7B6692975195E0040DB1D /* ErrorAlertViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B6682975195E0040DB1D /* ErrorAlertViewModifier.swift */; };
+		CED7B66B29751E210040DB1D /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B66A29751E210040DB1D /* View+.swift */; };
+		CED7B66D297521670040DB1D /* LoadingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7B66C297521670040DB1D /* LoadingViewModifier.swift */; };
 		CEF07FF3295D36D80070F586 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF07FF2295D36D80070F586 /* APIManager.swift */; };
 		CEF07FF6295D374D0070F586 /* ZooAreaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF07FF5295D374D0070F586 /* ZooAreaInfo.swift */; };
 		CEF07FF8295D37950070F586 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF07FF7295D37950070F586 /* Response.swift */; };
@@ -24,12 +34,22 @@
 /* Begin PBXFileReference section */
 		CE819A9C295D2C07000CF39C /* TaipeiZooSwiftUIVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiZooSwiftUIVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE819A9F295D2C07000CF39C /* TaipeiZooSwiftUIVersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaipeiZooSwiftUIVersionApp.swift; sourceTree = "<group>"; };
-		CE819AA1295D2C07000CF39C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE819AA1295D2C07000CF39C /* AnimalAreaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAreaListView.swift; sourceTree = "<group>"; };
 		CE819AA3295D2C08000CF39C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE819AA6295D2C08000CF39C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE9C2702296BEFE400E872BD /* AnimalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalInfo.swift; sourceTree = "<group>"; };
 		CE9C2704296D4F3100E872BD /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		CED658BE295D884E00CC5992 /* AreaDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailViewModel.swift; sourceTree = "<group>"; };
+		CED7B6542974F9FF0040DB1D /* PicUrlImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicUrlImage.swift; sourceTree = "<group>"; };
+		CED7B6562974FB4E0040DB1D /* AreaDetailCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailCellView.swift; sourceTree = "<group>"; };
+		CED7B6582974FB770040DB1D /* AreaDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDetailHeaderView.swift; sourceTree = "<group>"; };
+		CED7B65B2974FC3A0040DB1D /* UINavigationController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+.swift"; sourceTree = "<group>"; };
+		CED7B65D2974FCA60040DB1D /* AnimalAreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalAreaCell.swift; sourceTree = "<group>"; };
+		CED7B6632974FFDF0040DB1D /* AnimalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTextView.swift; sourceTree = "<group>"; };
+		CED7B665297501370040DB1D /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		CED7B6682975195E0040DB1D /* ErrorAlertViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertViewModifier.swift; sourceTree = "<group>"; };
+		CED7B66A29751E210040DB1D /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		CED7B66C297521670040DB1D /* LoadingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModifier.swift; sourceTree = "<group>"; };
 		CEF07FF2295D36D80070F586 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		CEF07FF5295D374D0070F586 /* ZooAreaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooAreaInfo.swift; sourceTree = "<group>"; };
 		CEF07FF7295D37950070F586 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
@@ -68,6 +88,8 @@
 		CE819A9E295D2C07000CF39C /* TaipeiZooSwiftUIVersion */ = {
 			isa = PBXGroup;
 			children = (
+				CED7B667297519320040DB1D /* ViewModifier */,
+				CED7B65A2974FC280040DB1D /* Extension */,
 				CEF08001295D84D00070F586 /* View */,
 				CEF07FF9295D37BA0070F586 /* ViewModel */,
 				CEF07FF4295D36FF0070F586 /* Model */,
@@ -86,6 +108,60 @@
 				CE819AA6295D2C08000CF39C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CED7B65A2974FC280040DB1D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CED7B65B2974FC3A0040DB1D /* UINavigationController+.swift */,
+				CED7B66A29751E210040DB1D /* View+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CED7B65F2974FF050040DB1D /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				CE819AA1295D2C07000CF39C /* AnimalAreaListView.swift */,
+				CED7B65D2974FCA60040DB1D /* AnimalAreaCell.swift */,
+			);
+			path = Area;
+			sourceTree = "<group>";
+		};
+		CED7B6602974FF230040DB1D /* AreaDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CEF07FFF295D81BC0070F586 /* AreaDetailView.swift */,
+				CED7B6582974FB770040DB1D /* AreaDetailHeaderView.swift */,
+				CED7B6562974FB4E0040DB1D /* AreaDetailCellView.swift */,
+			);
+			path = AreaDetail;
+			sourceTree = "<group>";
+		};
+		CED7B6612974FF7C0040DB1D /* AnimalDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C2704296D4F3100E872BD /* AnimalDetailView.swift */,
+				CED7B6632974FFDF0040DB1D /* AnimalTextView.swift */,
+			);
+			path = AnimalDetail;
+			sourceTree = "<group>";
+		};
+		CED7B6622974FF950040DB1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CED7B6542974F9FF0040DB1D /* PicUrlImage.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CED7B667297519320040DB1D /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				CED7B66C297521670040DB1D /* LoadingViewModifier.swift */,
+				CED7B6682975195E0040DB1D /* ErrorAlertViewModifier.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 		CEF07FF1295D36C70070F586 /* Manager */ = {
@@ -111,6 +187,7 @@
 			children = (
 				CEF07FFA295D37D40070F586 /* AreaViewModel.swift */,
 				CED658BE295D884E00CC5992 /* AreaDetailViewModel.swift */,
+				CED7B665297501370040DB1D /* BaseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,9 +195,10 @@
 		CEF08001295D84D00070F586 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CEF07FFF295D81BC0070F586 /* AreaDetailView.swift */,
-				CE9C2704296D4F3100E872BD /* AnimalDetailView.swift */,
-				CE819AA1295D2C07000CF39C /* ContentView.swift */,
+				CED7B65F2974FF050040DB1D /* Area */,
+				CED7B6602974FF230040DB1D /* AreaDetail */,
+				CED7B6612974FF7C0040DB1D /* AnimalDetail */,
+				CED7B6622974FF950040DB1D /* Common */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,15 +273,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED7B66D297521670040DB1D /* LoadingViewModifier.swift in Sources */,
 				CEF07FF3295D36D80070F586 /* APIManager.swift in Sources */,
+				CED7B6642974FFDF0040DB1D /* AnimalTextView.swift in Sources */,
+				CED7B666297501370040DB1D /* BaseViewModel.swift in Sources */,
+				CED7B6572974FB4E0040DB1D /* AreaDetailCellView.swift in Sources */,
 				CEF07FF6295D374D0070F586 /* ZooAreaInfo.swift in Sources */,
+				CED7B6592974FB770040DB1D /* AreaDetailHeaderView.swift in Sources */,
 				CE9C2703296BEFE400E872BD /* AnimalInfo.swift in Sources */,
+				CED7B66B29751E210040DB1D /* View+.swift in Sources */,
 				CEF08000295D81BC0070F586 /* AreaDetailView.swift in Sources */,
-				CE819AA2295D2C07000CF39C /* ContentView.swift in Sources */,
+				CE819AA2295D2C07000CF39C /* AnimalAreaListView.swift in Sources */,
+				CED7B6692975195E0040DB1D /* ErrorAlertViewModifier.swift in Sources */,
+				CED7B65C2974FC3A0040DB1D /* UINavigationController+.swift in Sources */,
+				CED7B65E2974FCA60040DB1D /* AnimalAreaCell.swift in Sources */,
 				CED658BF295D884E00CC5992 /* AreaDetailViewModel.swift in Sources */,
 				CEF07FFB295D37D40070F586 /* AreaViewModel.swift in Sources */,
 				CE819AA0295D2C07000CF39C /* TaipeiZooSwiftUIVersionApp.swift in Sources */,
 				CEF07FF8295D37950070F586 /* Response.swift in Sources */,
+				CED7B6552974F9FF0040DB1D /* PicUrlImage.swift in Sources */,
 				CE9C2705296D4F3100E872BD /* AnimalDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

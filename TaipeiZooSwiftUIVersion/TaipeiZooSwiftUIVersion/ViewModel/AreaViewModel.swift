@@ -8,11 +8,8 @@
 import Foundation
 import Combine
 
-class AreaViewModel: ObservableObject {
+class AreaViewModel: BaseViewModel {
     @Published private (set) var zooAreaInfos = [ZooAreaInfo]()
-    @Published private (set) var isLoading = false
-    @Published private (set) var errorMessage: String?
-    private var cancellable = Set<AnyCancellable>()
     
     func getData() {
         isLoading = true
