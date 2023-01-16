@@ -25,8 +25,8 @@ struct AnimalAreaListView: View {
                 AreaDetailView(viewModel: AreaDetailViewModel(areaInfo: areaInfo))
             })
         }
-        .loadingView(isLoading: viewModel.isLoading)
         .tint(.black)
+        .loadingView(isLoading: viewModel.isLoading)
         .errorAlert(message: $viewModel.errorMessage)
         .onAppear {
             viewModel.getData()

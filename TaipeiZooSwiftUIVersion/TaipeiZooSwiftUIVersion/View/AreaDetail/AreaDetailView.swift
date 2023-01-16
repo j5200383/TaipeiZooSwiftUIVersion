@@ -24,6 +24,7 @@ struct AreaDetailView: View {
                     AreaDetailHeaderView(areaInfo: viewModel.areaInfo)
                         .frame(width: reader.size.width)
                         .listRowInsets(EdgeInsets())
+                        .fixedSize()
                 }
                 .headerProminence(.increased)
             }
